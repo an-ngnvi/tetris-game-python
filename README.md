@@ -1,7 +1,7 @@
 # 🎮 Classic Tetris Game (Python)
 
 **Đồ án môn học:** Lập trình Python  
-**Học kỳ - Năm học:** Học kỳ 1 (2024 - 2025) | Năm 2  
+**Học kỳ - Năm học:** Học kỳ 1 (2024 - 2025) 
 **Trường:** Đại học Sư phạm Kỹ thuật TP.HCM (HCMUTE)  
 **GVHD:** TS. Phan Thị Thể  
 **Nhóm:** 13 – Lớp IPPA233277_08  
