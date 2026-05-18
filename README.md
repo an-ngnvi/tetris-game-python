@@ -2,22 +2,47 @@
 
 **Đồ án môn học:** Lập trình Python  
 **Học kỳ - Năm học:** Học kỳ 1 (2024 - 2025) | Năm 2  
-**Trường:** Đại học Sư phạm Kỹ thuật TP.HCM (HCMUTE)
+**Trường:** Đại học Sư phạm Kỹ thuật TP.HCM (HCMUTE)  
+**GVHD:** TS. Phan Thị Thể  
+**Nhóm:** 13 – Lớp IPPA233277_08  
 
 ---
 
 ## 📝 Giới thiệu dự án
-Dự án xây dựng lại trò chơi **Xếp gạch (Tetris) cổ điển** sử dụng ngôn ngữ lập trình Python và thư viện đồ họa `pygame`. Trò chơi mô phỏng đầy đủ các tính năng truyền thống: di chuyển, xoay khối gạch, xử lý va chạm, tính điểm khi xóa hàng và tăng tốc độ theo cấp độ.
+Dự án xây dựng lại trò chơi Xếp gạch (Tetris) cổ điển sử dụng ngôn ngữ lập trình Python và thư viện đồ họa pygame. Trò chơi có đầy đủ cơ chế gốc: di chuyển, xoay khối, xóa hàng, tính điểm và tăng tốc độ theo độ khó. Ngoài ra còn bổ sung các tính năng mới như phá hủy khối bằng chuột, bảng xếp hạng, và hiệu ứng pháo hoa.
 
-Sản phẩm áp dụng các kiến thức cốt lõi về:
-- Tư duy lập trình hướng đối tượng (OOP).
-- Thuật toán xử lý ma trận và va chạm 2D.
-- Cơ chế bắt sự kiện thời gian thực (Event Handling) từ bàn phím.
+---
+
+## ✨ Tính năng nổi bật
+* 7 loại khối Tetromino (S, Z, I, O, J, L, T) với màu sắc riêng biệt
+* 3 mức độ khó: Easy, Normal, Hard
+* Tính năng phá hủy khối bằng chuột với hiệu ứng nhấp nháy
+* Xem trước khối tiếp theo
+* Bảng xếp hạng lưu điểm theo tên người chơi (top 10)
+* Hiệu ứng pháo hoa khi đạt top 1 hoặc top 5
+* Nhạc nền và âm thanh nút bấm
+
+---
 
 ## 🛠️ Công nghệ sử dụng
-- **Ngôn ngữ:** Python 3.10+
-- **Thư viện chính:** Pygame
-- **Công cụ:** Git & GitHub
+* **Ngôn ngữ:** Python 3.10+
+* **Thư viện chính:** Pygame, Random, Math, Pathlib
+* **Công cụ:** Git & GitHub
+
+---
+
+## 🎮 Hướng dẫn chơi
+
+| Phím / Thao tác | Chức năng |
+| :--- | :--- |
+| **`←`** / **`→`** | Di chuyển khối sang trái / phải |
+| **`↑`** | Xoay khối |
+| **`↓`** | Rơi nhanh |
+| **`Space`** | Rơi thẳng xuống đáy |
+| **`P`** | Tạm dừng / Tiếp tục |
+| **Click chuột trái** | Phá hủy vùng 3×3 (tối đa 3 lần/ván) |
+
+---
 
 ## 🚀 Hướng dẫn cài đặt & Chạy game
 
